@@ -1,0 +1,22 @@
+.all{
+    column-count: 1;
+}
+
+#button{
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: rgb(110, 223, 110);
+    color: white;
+    padding: 15px 32px ;
+    border: 0;
+
+    
+}
+
+
+@media (min-width: 700px) { 
+    .all{
+        column-count: 2;
+    }
+}
